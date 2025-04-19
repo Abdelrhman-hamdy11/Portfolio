@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Title  -->
+  <title>Abdelrhamn Hamdy Portfolio</title>
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar> <!-- Adjust width as needed -->
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/AH.jpg" alt="Abdelrhman Hamdy" width="50">
+        </figure>
+
+        <div class="info-content">
+          <h6 class="name" title="Abdelrhman Hamdy"><small>Abdelrhman Hamdy</small></h6>
+          <p class="title Select"></p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:abdelrhman.h.f.eid@gmail.com" class="contact-link">abdelrhman.h.f.eid@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+201224977875" class="contact-link">+20 1061321737</a>
+            </div>
+          </li>
+
+
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Cairo, EGYPT</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/Abdelrhman-hamdy11" class="social-link" title="GitHub" target="_blank">
+              <img src="./assets/images/github.png" alt="GitHub" width="24" height="24">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/abdelrahman-hamdii/" class="social-link" title="LinkedIn"
+              target="_blank">
+              <img src="./assets/images/linkedin.png" alt="LinkedIn" width="24" height="24">
+            </a>
+          </li>
+
+
+
+          <li class="social-item">
+            <a href="https://www.datacamp.com/portfolio/abdohamdy6374" class="social-link" title="DataCamp"
+              target="_blank">
+              <img src="./assets/images/datacamp-svgrepo-com.svg" alt="DataCamp" width="24" height="24">
+            </a>
+          </li>
+
+
+
+
+          <li class="social-item">
+            <a href="https://khamsat.com/user/abdelrhman_h_fathy" class="social-link" title="khamsat" target="_blank">
+              <img
+                src="https://khamsat.hsoubcdn.com/assets/images/favicon-740117d323c70fbc071fefd88fbff2f0bb0746f995a2f852ac2d46bea229f212.png"
+                alt="khamsat" width="24" height="24">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://mostaql.com/u/abdelrhman_H_F" class="social-link" title="mostaql" target="_blank">
+              <img src=".\assets\images\mostaql.jpg" alt="mostaql" width="24" height="24">
+            </a>
+          </li>
+
+
+
+          <li class="social-item">
+            <a href="https://www.upwork.com/freelancers/~0150782937173924ab?mp_source=share" class="social-link"
+              title="upwork" target="_blank">
+              <img src="./assets/images/pngwing.com.png" alt="upwork" width="24" height="24">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.kaggle.com/abdelrhmanhamdy1" class="social-link" title="Kaggle" target="_blank">
+              <img src="./assets/images/kaggle.png" alt="Kaggle" width="24" height="24">
+            </a>
+          </li>
+
+
+
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <!-- about text -->
+        <section class="about-text">
+          <p>
+            I am a Data Scientist based in Cairo, Egypt, with experience in data analysis, machine learning, and deep
+            learning. I specialize in extracting valuable insights from data and building AI-driven solutions. My
+            technical stack includes Python, TensorFlow, Scikit-learn, Pandas, SQL, and Power BI.
+          </p>
+
+
+
+          <p>
+            Currently, I am expanding my expertise in Deep Learning, focusing on computer vision and NLP. I am working
+            on building and optimizing convolutional neural networks (CNNs) for image recognition and leveraging YOLO
+            for real-time object detection. I am always eager to learn and apply cutting-edge AI techniques to solve
+            real-world challenges.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data-science2.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  Applying advanced techniques to analyze and interpret complex data, providing actionable insights and
+                  solutions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data-analysis2.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                <p class="service-item-text">
+                  Performing in-depth data analysis to uncover trends, patterns, and correlations, ensuring high-quality
+                  and accurate results.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/web-spider.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Scraping</h4>
+
+                <p class="service-item-text">
+                  Expertly extracting data from websites to gather valuable information and insights, tailored to meet
+                  specific needs.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ML.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Developing and deploying machine learning models to predict outcomes and enhance decision-making
+                  processes.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <!-- <time datetime="2021-06-14">1 Sep, 2024</time> -->
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - Skills
+        -->
+
+        <section class="skills-technologies">
+
+          <h3 class="h3 skills-title">Skills and Technologies</h3>
+
+          <ul class="skills-list">
+            <li class="skills-item">- Data Science</li>
+            <li class="skills-item">- Python</li>
+            <li class="skills-item">- Web Scraping</li>
+            <li class="skills-item">- Pandas</li>
+            <li class="skills-item">- Data Analysis</li>
+            <li class="skills-item">- Git</li>
+            <li class="skills-item">- Scikit-Learn</li>
+            <li class="skills-item">- Excel</li>
+            <li class="skills-item">- Machine Learning</li>
+            <li class="skills-item">- Power BI</li>
+            <!-- Add more skills as needed -->
+          </ul>
+
+        </section>
+
+
+
+
+
+        <!--
+          - Languages section
+        -->
+        <section class="skills-technologies">
+
+          <h3 class="h3 skills-title">Languages</h3>
+
+          <ul class="skills-list">
+            <li class="skills-item">- Arabic (Native)</li>
+            <li class="skills-item">- English (Upper Intermediate)</li>
+          </ul>
+
+        </section>
+
+
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+
+        <!-- Education -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">El Shorouk Academy</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                Studying Computer Science with a specialization in Data Science, gaining expertise in core CS principles
+                and data-driven technologies.
+              </p>
+
+            </li>
+
+
+
+          </ol>
+
+        </section>
+
+        <!-- Experience -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Science, ALX</h4>
+
+              <span>September 2023 — August 2024</span>
+
+              <p class="timeline-text">
+                During my Scholarship at ALX, I gained extensive knowledge in Data Science, applied various ML
+                techniques, and worked on numerous projects that enhanced my practical skills.
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Analysis, DEPI</h4>
+
+              <span>October 2024 — May 2025</span>
+
+              <p class="timeline-text">
+                As a Data Analysis Trainee, I developed a deep understanding of data analysis methodologies and applied
+                these skills in practical projects, significantly enhancing my ability to manage, interpret, and derive
+                insights from complex datasets.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <!-- Certificates -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="document-text-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Certificates</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Scientist Associate certificate</h4>
+
+              <span>Company: DataCamp</span>
+              <span>Date: August 2024</span>
+              <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/3898086506de7dc4b43a688d1375e91437a08479"
+                target="_blank">View Certificate</a>
+
+              <p class="timeline-text">
+                This Track covers core concepts and techniques in data science, with a focus on machine learning,
+                including supervised learning, unsupervised learning.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning</h4>
+
+              <span>Company: Coursera </span>
+              <span>Date: June 2024</span>
+              <a href="https://www.coursera.org/account/accomplishments/specialization/RGNSCXPRT43T"
+                target="_blank">View Certificate</a>
+
+              <p class="timeline-text">
+                This track equipped me with hands-on experience in machine learning using Python, emphasizing model
+                development, algorithm implementation, and performance evaluation with libraries such as Scikit-learn,
+                TensorFlow, and Keras.
+              </p>
+
+            </li>
+
+            <!-- Add more certificates here -->
+
+          </ol>
+
+        </section>
+
+        <!-- Skills -->
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Science</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Scraping</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analysis</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- filter -->
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Science</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Scraping</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Computer Vision</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Analysis</button>
+            </li>
+
+
+          </ul>
+
+          <!-- filter-select-box -->
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <!-- select list -->
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Science</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Scraping</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Computer Vision</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Analysis</button>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+          <!-- projects -->
+          <ul class="project-list">
+
+
+            <li class="project-item  active" data-filter-item data-category="web scraping">
+              <a href="https://github.com/Abdelrhman-hamdy11/Web-Scraping-.git" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Screenshot (273).png" alt="Alibaba Products" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Web Scraping HP Products from Jumia Egypt using Python</h3>
+
+                <p class="project-category">Web Scraping</p>
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/Abdelrhman-hamdy11/Data-Science-Projects.git" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/nyc.jpg" alt="Exploring Airbnb Market Trends" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Exploring Airbnb Market Trends</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+            </li>
+
+
+
+            <!-- <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/Abdelrhman-hamdy11/Data-Camp-Project.git" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/supermarket.jpg" alt="Supermarket Loyalty" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Supermarket Loyalty</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+            </li> -->
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/Abdelrhman-hamdy11/Data-Cleaning/tree/main" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bank.jpg" alt="Cleaning Bank Marketing Campaign Data" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cleaning Bank Marketing Campaign Data</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Abdelrhman-hamdy11/Machine-Learning-" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/boston.jpg" alt="Housing Price Prediction" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Housing Price Prediction</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Abdelrhman-hamdy11/Project-Predictive-Modeling-for-Agriculture" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/farmer_in_a_field.jpg" alt="Predictive Modeling for Agriculture" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Predictive Modeling for Agriculture</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Abdelrhman-hamdy11/Diabetes" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/diabetes.webp" alt="Diabetes Analysis and Prediction" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Diabetes Analysis and Prediction</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Abdelrhman-hamdy11/Assessing-Customer-Churn-Using-Machine-Learning" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/IMG_8811.png" alt="Assessing Customer Churn" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Assessing Customer Churn</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            
+
+
+            <li class="project-item  active" data-filter-item data-category="computer vision">
+              <a href="https://github.com/Abdelrhman-hamdy11/Project-Sign-Language" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sign language.png" alt="Sign Language Recognition" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sign Language Recognition</h3>
+
+                <p class="project-category">Computer Vision</p>
+
+              </a>
+            </li>
+
+
+
+
+            <!-- <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://github.com/Abdelrhman-hamdy11/Python-Data-Analysis.git" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/card.jpg" alt="Credit Card Spending Analysis" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Credit Card Spending Analysis</h3>
+
+                <p class="project-category">Data Analysis</p>
+
+              </a>
+            </li> -->
+
+
+            <li class="project-item  active" data-filter-item data-category="data analysis">
+              <a href="https://github.com/Abdelrhman-hamdy11/Inspecting-Electric-Vehicle-Charging-Trends" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ev_charging.png" alt="Inspecting Electric Vehicle Charging Trends" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Inspecting Electric Vehicle Charging Trends</h3>
+
+                <p class="project-category">Data Analysis</p>
+
+              </a>
+            </li>
+
+
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26276.064328558616!2d31.1760625!3d30.0596113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2sCairo%2C%20Cairo%20Governorate%2C%20Egypt!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="https://formspree.io/f/mnnjvdya" method="POST" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+
+
+      </article>
+
+
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  
+  
+  <script src="./assets/js/script.js"></script>
+  
+  <!--
+    - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <script src="./assets/js/autotyping.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          const exampleText = ['Data Scientist'];
+          const exampleTyping = new AutoTyping('.Select', exampleText, {
+              typeSpeed: 50,
+              deleteSpeed: 50,
+              waitBeforeDelete: 2000,
+              waitBetweenWords: 500,
+          });
+          exampleTyping.start()
+      });
+  </script>
+  </body>
+  
+</html>
